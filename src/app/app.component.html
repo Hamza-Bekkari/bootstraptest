@@ -1,12 +1,37 @@
-<div class="container">
-  <div class="jumbotron">
-    <h1> {{ myDate | date:'HH:mm'}}</h1>
-    <h2>{{myDate | date:'EEEE dd MMMM yyyy' }}</h2>
-  </div> 
-  <div class="panel panel-primary">
-    <div class="panel-heading">Modules</div>
-    <div class="panel-body">
-      <h3>à ajouter</h3>
-    </div>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Isen Mirror</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h2>{{myDate | date:'EEEE dd MMMM yyyy' }}</h2>
+      <h1> {{ myDate | date:'HH:mm'}}</h1>
+
+    </div> 
+    <div class="panel panel-primary">
+      <div class="panel-heading">Modules</div>
+      <div class="panel-body">
+        
+        <a class="weatherwidget-io" href="https://forecast7.com/fr/50d633d06/lille/" data-label_1="LILLE" data-label_2="MÉTÉO" data-icons="Climacons Animated" data-theme="dark" data-suncolor="#fffd0c" >LILLE MÉTÉO</a>
+        
+
+        
+        <iframe class="agenda2" src="https://calendar.google.com/calendar/embed?height=200&amp;wkst=2&amp;bgcolor=%2333B679&amp;ctz=Europe%2FParis&amp;src=YWxleHg1OTkxMEBnbWFpbC5jb20&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZmFtaWx5MDUyODU1ODI1NTE2MjA0ODA1NTNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZnIuZnJlbmNoI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%237986CB&amp;color=%237986CB&amp;color=%237986CB&amp;color=%237986CB&amp;mode=AGENDA&amp;showTitle=0&amp;showNav=1&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=1&amp;showTz=0" style="border:solid 1px #777" width="700" height="200" frameborder="0" scrolling="no"></iframe>
+        
+
+
+      </div>
+      <a href="#" class="notification">
+          <span>Messagerie</span>
+          <span class="badge"></span>
+        </a>
+   </div>
   </div>
-</div>
+</body>
+</html>
+
+
+

@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+.weatherwidget-io{
+	width:180px;
+	
+	margin-left: 1450px;
+}
+html{
+	background-color: black;
+}
+body {
+	background-color: black;
+}
+
+.agenda2 {
+    margin-bottom: 100px;
+	background-color: black;
+	margin-left: 0px;
+}
